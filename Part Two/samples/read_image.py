@@ -1,4 +1,4 @@
-## This is course material for Introduction to Python Scientific Programming
+pip## This is course material for Introduction to Python Scientific Programming
 ## Example code: read_image.py
 ## Author: Allen Y. Yang
 ##

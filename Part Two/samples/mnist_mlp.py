@@ -9,6 +9,9 @@ from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense
 import matplotlib.pyplot as plt
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["TF_DEVICE_DISABLE_METADATA"] = "1"
 
 batch_size = 128
 num_classes = 10
